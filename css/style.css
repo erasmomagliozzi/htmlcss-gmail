@@ -11,7 +11,7 @@ body{
 
 }
 
-
+/* HEADER */
 .container{
   width:1500px;
   margin: auto;
@@ -33,11 +33,13 @@ body{
   display: inline;
   color: white;
 }
+/* FINE HEADER */
 
+/* MAIN */
 .title-unread{
   color: white;
 }
-
+/* PRENDE IN CONSIDERAZIONE SOLAMENTE L'INTERNO DELLO SPAN */
 .title-unread span {
   box-sizing: border-box;
   display: inline-block;
@@ -64,7 +66,8 @@ body{
 .read{
   background-color: white;
 }
-
+/* FINE MAIN */
+/* FOOTER */
 .footer{
   color: white;
   text-align: center;
